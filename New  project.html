@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Boxes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+     <header>
+                    <div><img src="spotify.png"></div>
+                <div class="brand-name"><h1>SPOTIFY>>></h1></div>
+            <nav> 
+               <ul>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Login</a></li>
+               </ul>
+           </nav>
+    </header>
+    <div class="main-container">
+      <div class="first-row">
+     <div class="small-box">
+            <div class="home-icon">
+                <img src="home_263115.png" alt="Home Icon" class="icon-img">
+                <h6><span class="home-text"> Home </span></h6>
+            </div>
+            <div class="search-tab">
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+        <div class="medium-box">
+    <div class="row first-row">
+        <div class="left-side">
+            <img src="library-icon.png" alt="Library Icon" class="library-icon">
+            <span class="library-text">Your Library</span>
+        </div>
+        <div class="right">
+            <span class="icon-b">+</span>
+            <span class="icon-b">→</span>
+        </div>
+    </div>
+    <div class="button">
+        <button class="button">Albums</button>
+        <button class="button">Playlists</button>
+        <button class="button">Artists</button>
+        <button class="button">Podcasts</button>
+        <button class="button">Events</button>
+    </div>
+    <div class="scroll-content">
+         <div class="rows">
+               <img src="item-image1.png" class="item-image">
+            <span>Item Text 1</span>
+         </div>
+         <div class="rows">
+              <img src="item-image2.png" class="item-image">
+              <span>Item Text 2</span>
+        </div>
+        <div class="rows">
+              <img src="item-image3.png" class="item-image">
+              <span>Item Text 3</span>
+        </div>
+        <div class="rows">
+              <img src="item-image2.png" class="item-image">
+              <span>Item Text 2</span>
+        </div>
+        <div class="rows">
+              <img src="item-image3.png" class="item-image">
+              <span>Item Text 3</span>
+        </div>
+        <div class="rows">
+              <img src="item-image1.png" class="item-image">
+              <span>Item Text 1</span>
+        </div>
+        <div class="rows">
+              <img src="item-image2.png" class="item-image">
+              <span>Item Text 2</span>
+        </div>
+        <div class="rows">
+              <img src="item-image3.png" class="item-image">
+              <span>Item Text 3</span>
+        </div>
+        <div class="rows">
+              <img src="item-image2.png" class="item-image">
+              <span>Item Text 2</span>
+        </div>
+        <div class="rows">
+              <img src="item-image3.png" class="item-image">
+              <span>Item Text 3</span>
+        </div>
+        <!-- Add more rows as needed -->
+     </div> 
+     </div>
+   </div>
+    <div class="Second-box">
+     <!-- <div class="Third-box">-->
+          <div class="Third-content">
+        <div class="header3">
+            <button><h4>All</h4>
+            <button><h4>Music</h4></button>
+             <button><h4>Podcast</h4></button></button>
+           </div>
+           <div class="box-scrollable">
+            <div class="container">
+        <div class="row-3">
+            <div class="header">
+                <h1 class="heading">Unforgettable stories of Indian Mythology</h1>
+                <button class="show-all">Show All</button>
+            </div>
+            <div class="content">
+            <div class="box"onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src="MYTHOLOGY.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <audio loop class="background-audio">
+                    <source src="AUDIO OF JAGANATH.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+              <img class="hover-image" src="Discover India.jfif" alt="Hover Image">
+              <div class="title">Mythology Magic</div>
+            <div class="artist">Annappoorna</div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+                             <video loop autoplay class="background-video" muted width="300">
+                    <source src="gandhari vedio.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <audio loop class="background-audio">
+                    <source src="gandhari audio.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+              <img class="hover-image" src="Mahabharat Sketch (1).jfif" alt="Hover Image">
+                          <div class="title">Stories of Mahabaratham</div>
+            <div class="artist">Vyasa</div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src="myth video (online-video-cutter.com).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                   <audio loop class="background-audio">
+                    <source src="myth audio.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+              <img class="hover-image" src="Winter.jfif" alt="Hover Image">
+                <div class="title">Stories from Indian Mythology</div>
+            <div class="artist">Vishwajeet Sapan</div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+                         <video loop autoplay class="background-video" muted width="300">
+                    <source src="acient vedio.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="acientaudio.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+              <img class="hover-image" src="Shuchi Krishan.jfif" alt="Hover Image">
+                              <div class="title">Tales from Anceint India</div>
+            <div class="artist">Vishwajeet Sapan</div>
+                <button class="play-button">▶</button>
+            </div>
+                 <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+                      <video loop autoplay class="background-video" muted width="300">
+                    <source src="kids stories.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="kidsaudio.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                          <img class="hover-image" src="download.jfif" alt="Hover Image">
+            <div class="title">Indian Mythology for Kids</div>
+            <div class="artist">Harish Sharma</div>
+                <button class="play-button">▶</button>
+            </div>
+            </div>
+        </div>
+
+        <!-- Add more rows as needed, following the same structure -->
+    </div>
+                <div class="container">
+        <div class="row-3">
+            <div class="header">
+                <h1 class="heading">Popular with listeners from Popular playlists for you </h1>
+                <button class="show-all">Show All</button>
+            </div>
+            <div class="content">
+            <div class="box"onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src="ted talk video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="ted talkaudio.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+               <div class="title">TED TALKS </div>
+            <div class="artist"></div>
+              <img class="hover-image" src="ted talks image.jfif" alt="Hover Image">
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src=".mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src=".mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+               <div class="title">  PYTHON PROGRAMMING</div>
+            <div class="artist">KUNAL</div>
+              <img class="hover-image" src="python.jfif" alt="Hover Image">
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src="motivate videdo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="motivate audio.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+               <div class="title">               Podcast              </div>
+            <div class="artist">                   By ella    </div>
+              <img class="hover-image" src="Podcast Cover.jfif" alt="Hover Image">
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src=".mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="  .mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+               <div class="title">   Programming Podcast        </div>
+            <div class="artist">      HTML CSS JAVASCRIPT                  </div>
+              <img class="hover-image" src="html css javascript.jfif" alt="Hover Image">
+                <button class="play-button">▶</button>
+            </div>
+                        <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+                           <video loop autoplay class="background-video" muted width="300">
+                    <source src=" .mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src=" .mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                           <div class="title">  Podcast   </div>
+            <div class="artist">    By  Sharma             </div>
+                          <img class="hover-image" src="graphic.jfif" alt="Hover Image">
+                <button class="play-button">▶</button>
+            </div>
+            </div>
+        </div>
+
+        <!-- Add more rows as needed, following the same structure -->
+    </div>
+            <div class="container">
+        <div class="row-3">
+            <div class="header">
+                <h1 class="heading">Top Hits-Hindi,English,Telugu,Malayalam,Tamil for you</h1>
+                <button class="show-all">Show All</button>
+            </div>
+            <div class="content">
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src="Samajavaragamana 1080.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="Samajavaragamana audio (mp3cut.net).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <img class="hover-image" src="image ala.jfif" alt="Hover Image">
+                 <div class="title"><h3>Top Hits Telugu</h3></div>
+            <div class="artist"></div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src=".mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="The Night We Met (1).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+              <img class="hover-image" src="harry styles.jfif" alt="Hover Image">
+               <div class="title"><h3>Top Hits English</h3></div>
+            <div class="artist"></div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src=".mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="The Night We Met (1).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+              <img class="hover-image" src="tamil.jfif" alt="Hover Image">
+               <div class="title"><h3>Top Hits Tamil</h3></div>
+            <div class="artist"></div>
+                <button class="play-button">▶</button>
+            </div>
+            <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+               <video loop autoplay class="background-video" muted width="300">
+                    <source src=".mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="The Night We Met (1).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+              <img class="hover-image" src="hindi.jfif" alt="Hover Image">
+               <div class="title"><h3>Top Hits Hindi</h3></div>
+            <div class="artist"></div>
+                <button class="play-button">▶</button>
+            </div>
+                        <div class="box" onmouseover="playMedia(this, 5)" onmouseout="pauseMedia(this)">
+                           <video loop autoplay class="background-video" muted width="300">
+                    <source src=".mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <audio loop class="background-audio">
+                    <source src="The Night We Met (1).mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                          <img class="hover-image" src="Carnatic.jfif" alt="Hover Image">
+                           <div class="title"><h3>Top Hits Carnatic</h3></div>
+            <div class="artist"></div>
+                <button class="play-button">▶</button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Add more rows as needed, following the same structure -->
+    </div>
+   <footer>
+        <p> &copy; 2024 Spotify Clone.Legal .</p>
+        <P>SPOTIFY PLANS - Premium Students,Spotify free,Premium Individuals </P>
+        <p><a href="privacy.html" style="color: #bbb;">Privacy Policy</a> | <a href="terms.html" style="color: #bbb;">Terms of Service</a></p>
+    </footer>
+  </div>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>
